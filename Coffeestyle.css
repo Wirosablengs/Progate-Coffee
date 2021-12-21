@@ -192,14 +192,16 @@
   }
   
   .person-icon img:hover {
-    position: relative;
-    top: 25px;
-    right: 15px;
-    box-shadow: none;
+    -webkit-transform: scale(1.3);
+  	transform: scale(1.3);
     
   }
 
   .person-icon img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
     cursor: pointer;
   }
 
@@ -217,10 +219,8 @@
   }
   
   .person-icon2 img:hover {
-    position: relative;
-    top: 25px;
-    right: 15px;
-    box-shadow: none;
+    -webkit-transform: scale(1.3);
+  	transform: scale(1.3);
     
   }
 
@@ -228,6 +228,10 @@
     cursor: pointer;
     width: 150px;
     height: 144px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
   }
 
   .person-icon2 p {
@@ -244,14 +248,16 @@
   }
   
   .person-icon4 img:hover {
-    position: relative;
-    top: 25px;
-    right: 15px;
-    box-shadow: none;
+    -webkit-transform: scale(1.3);
+  	transform: scale(1.3);
     
   }
 
   .person-icon4 img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
     cursor: pointer;
   }
 
@@ -541,7 +547,7 @@
 
   @keyframes animated-text2{
     from{width: 0;}
-    to{width: 290px;}
+    to{width: 300px;}
   }
 }
 
