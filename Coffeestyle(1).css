@@ -163,14 +163,20 @@
 
   }
 
+  .history-container {
+    padding: 0 50px;
+    margin: 0 auto;  
+  }
+
   .history-wrapper h1{
-    padding-top: 45px;
+    padding-top: 0px;
+    font-size: 45px;
 
   }
 
   .history-wrapper p{
     color:rgba(255, 255, 255, 0.8);
-    font-size: 15px;
+    font-size: 25px;
   }
 
  
@@ -199,9 +205,9 @@
 
   .person-icon img {
     -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	  transform: scale(1);
+	  -webkit-transition: .3s ease-in-out;
+	  transition: .3s ease-in-out;
     cursor: pointer;
   }
 
@@ -229,9 +235,9 @@
     width: 150px;
     height: 144px;
     -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	  transform: scale(1);
+	  -webkit-transition: .3s ease-in-out;
+	  transition: .3s ease-in-out;
   }
 
   .person-icon2 p {
@@ -244,7 +250,10 @@
   }
 
   .person-icon4 {
-    position: relative;
+    -webkit-transform: scale(1);
+	  transform: scale(1);
+	  -webkit-transition: .3s ease-in-out;
+	  transition: .3s ease-in-out;
   }
   
   .person-icon4 img:hover {
@@ -254,10 +263,6 @@
   }
 
   .person-icon4 img {
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
     cursor: pointer;
   }
 
@@ -355,6 +360,10 @@
     margin-right: 20px;
   }
 
+  .footer-container {
+    text-align: center;
+  }
+
   footer img {
     width: 125px;
     float: center;
@@ -362,7 +371,6 @@
   
   footer {
     background-color: rgb(255, 255, 255);
-    max-height: 150px;
   }
 
   footer p {
@@ -375,14 +383,15 @@
   
   footer {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .text-contents5 {
     color: #b3aeb5;
-    font-size: 12px;
+    font-size: 9px;
     font-family: "Lucida COnsole";
-    margin-top: 100px;
+    margin-top: 35px;
+    text-align: center;
   }
 
 /* for animation */
@@ -390,7 +399,7 @@
   .person-wrapper h1{
     animation-name: example;
     animation-duration: 5s;
-    animation-iteration-count: infinite;    
+    animation-iteration-count: infinite;
   }
 
   @keyframes example {
